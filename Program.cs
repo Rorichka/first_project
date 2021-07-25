@@ -42,7 +42,7 @@ namespace ProjectForGitHub__1
                         Console.WriteLine();
 
                         Console.WriteLine("Выберите задачу, с которой вы бы хотели поработать:\n1 - логические операции\n2 - арифметические операции\n3 - " +
-                            "операции сравнения\n4 - циклы\n0 - возврат в прерыдущее меню");
+                            "операции сравнения\n4 - циклы\n0 - возврат в предыдущее меню");
                         Console.WriteLine();
                         int t = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine();
@@ -113,7 +113,7 @@ namespace ProjectForGitHub__1
                             "зависимости от номера операции программа выводит ему название операции.\n6 - " +
                             "Измените предыдущую программу. Пусть пользователь кроме номера операции вводит два числа, и в зависимости от номера операции с " +
                             "введенными числами выполняются определенные действия (например, при вводе числа 3 числа умножаются). Результа операции выводиться на консоль.\n7 - " +
-                            "Калькулятор\n8 - Конвертер времени\n9 - Конвертер валют\n0 - возврат в прерыдущее меню");
+                            "Калькулятор\n8 - Конвертер времени\n9 - Конвертер валют\n0 - возврат в предыдущее меню");
                         Console.WriteLine();
                         int u = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine();
@@ -187,7 +187,7 @@ namespace ProjectForGitHub__1
                     else if (y == 3)
                     {
                         Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine($"{x}, вы находитесь в разделе 'Массивы', для возврата в предыдщуее меню нажмите 0, для продолжения нажмите 1");
+                        Console.WriteLine($"{x}, вы находитесь в разделе 'Массивы', для возврата в предыдущее меню нажмите 0, для продолжения нажмите 1");
                         int o = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine();
                         if (o == 0)
@@ -223,7 +223,7 @@ namespace ProjectForGitHub__1
                 int p2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
                 Console.WriteLine("Выберите действие:\n1 - логическая конъюнкция\n2 - логическая дезъюнкция\n3 - логическая исключающая 'или'" +
-                    "\n4 - операция отрицания\n0 - возврат в прерыдущее меню");
+                    "\n4 - операция отрицания\n0 - возврат в предыдущее меню");
                 Console.WriteLine();
                 int t1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
@@ -288,7 +288,7 @@ namespace ProjectForGitHub__1
                 int p2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
                 Console.WriteLine("Выберите действие:\n1 - сложить\n2 - вычесть\n3 - умножить 'или'" +
-                    "\n4 - поделить\n5 - поделить по модулю\n0 - возврат в прерыдущее меню");
+                    "\n4 - поделить\n5 - поделить по модулю\n0 - возврат в предыдущее меню");
                 Console.WriteLine();
                 int t1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
@@ -357,7 +357,7 @@ namespace ProjectForGitHub__1
                 Console.Write("Введите данные числа y: ");
                 int p2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
-                Console.WriteLine("Выберите действие:\n1 - сравнить два числа\n0 - возврат в прерыдущее меню");
+                Console.WriteLine("Выберите действие:\n1 - сравнить два числа\n0 - возврат в предыдущее меню");
                 Console.WriteLine();
                 int t1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
@@ -423,7 +423,7 @@ namespace ProjectForGitHub__1
                     "В цикле программа просит у пользователя ввести два числа и выводит результат их умножения. " +
                     "После вывода результата умножения программа спрашивает, надо ли завершить выполнение. И если пользователь введет число 1, то программа завершает цикл. " +
                     "Если введено любое другое число, то программа продолжает спрашивать у пользователя два числа и умножать их.\n5 - " +
-                    "Треугольник высотой N\n6 - Ряд Фибоначи\n0 - возврат в прерыдущее меню");
+                    "Треугольник высотой N\n6 - Ряд Фибоначи\n0 - возврат в предыдущее меню");
                 Console.WriteLine();
                 int t1 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
@@ -486,7 +486,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 1:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -516,7 +516,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 2:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -547,7 +547,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 3:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -577,7 +577,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 4:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -614,7 +614,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Треугольник высотой N:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -650,7 +650,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Ряд чисел Фибоначи");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -685,7 +685,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 1:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -715,7 +715,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 2:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -746,7 +746,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 3:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -829,7 +829,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 4:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -910,7 +910,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 5:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -942,7 +942,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Задача 6:");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -981,7 +981,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Калькулятор");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -1024,7 +1024,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Конвертер времени");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
@@ -1237,7 +1237,7 @@ namespace ProjectForGitHub__1
             {
                 Console.WriteLine("Конвертер валют");
                 Console.WriteLine();
-                Console.WriteLine("Для возврата в предыдщуее меню нажмите 0, чтобы продолжить нажмите 1");
+                Console.WriteLine("Для возврата в предыдущее меню нажмите 0, чтобы продолжить нажмите 1");
                 int e = Convert.ToInt32(Console.ReadLine());
 
                 if (e == 0)
