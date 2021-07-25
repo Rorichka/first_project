@@ -10,7 +10,7 @@ namespace ProjectForGitHub__1
             string n = " ";
             
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.Write("Вас приветсвует C-3PO, введите ваше имя: ");
+                Console.Write("Вас приветствует C-3PO, введите ваше имя: ");
                 string x = Convert.ToString(Console.ReadLine());
                 Console.WriteLine();
             
